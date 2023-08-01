@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="teste.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="assets/Design sem nome2.png" type="image/x-icon">
+    <title>Atendimento às revendas | Support Center</title>
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <a class="ancora-logo" href="https://www.criaresupportcenter.com" target="_blank">
+                <img class="logo-criare" src="./assets/Design sem nome2.png" alt="Logo da criare">
+            </a>
+            <a href="https://www.criaresupportcenter.com">SIA</a>
+            <a href="https://www.criaresupportcenter.com/about">SIA PDV</a>
+            <a href="https://www.criaresupportcenter.com/cópia-sia-pdv">SIA COLETOR</a>
+            <a href="https://www.criaresupportcenter.com/cópia-sia-coletor">FORÇA DE VENDAS</a>
+
+            <div class="pesquisa">
+                <i class="fas fa-search"></i>
+                <input class="pesquisa-texto" type="text" name="" id="" placeholder="Pesquisar...">
+            </div>
+            <a href="https://www.criaresupportcenter.com/account/notifications">
+                <i class="fas fa-bell"></i>
+            </a>
+
+            <select class="meus-dados" name="" id="">
+                <option value="Minhas Assinaturas">Minhas Assinaturas</option>
+                <option value="Meus Pedidos">Meus Pedidos</option>
+                <option value="Meus Endereços">Meus Endereços</option>
+                <option value="Minha Carteira">Minha Carteira</option>
+                <option value="Meus agendamentos">Meus agendamentos</option>
+            </select>
+
+        </nav>
+    </header>
+
+
+    <main>
+        <section class="conteudo section-esquerda">
+            <div class="div-horarios">
+                <div>
+                    <h4>Nossos horários de atendimentos:</h4>
+                    <p>Segunda à sexta de 08:00 às 12:00 e 13:00 às 18:00. <br>
+                        Sábado de 8:00 às 12:00</p>
+                    <h4>Nosso plantão:</h4>
+                    <p>
+                        Segunda à sexta de 18:00 às 20:00 <br>
+                        Sábados de 12:00 às 18:00 <br>
+                        Domingos e feriados nacionais de 8:00 às 12:00
+                    </p>
+                </div>
+                <button>
+                    <a href="https://criareinformatica.geiko.com.br/crm/chat/chat_site_criareinformatica.html"
+                        target="_blank">ACESSAR PLANTÃO</a>
+                </button>
+            </div>
+        </section>
+
+        <section class="conteudo section-direita">
+
+            <button onclick="document.getElementById('modal').style.display='block'" class="chat">
+                <img src="https://criareinformatica.geiko.com.br/chat//01/chat.png">
+            </button>
+
+            <div class="modal-body" id="modal">
+                <div class="modal-header">
+                    <i class="fab fa-rocketchat" style="color: #ffffff;"></i>
+                    <p>Marcos Chat</p>
+                    <button onclick="document.getElementById('modal').style.display='none'" class="modal-minimiza">
+                        <i class="fas fa-window-minimize" style="color: #ffffff;"></i>
+                    </button>
+                    
+                </div>
+                <iframe id="IframeChatNovo" class="IframeChatNovo"
+                    src="https://criareinformatica.geiko.com.br/chat/02/index_siteOnFloat.asp?s=2&amp;PsiteOnFloat=s&amp;Pfone=s&amp;Ppro=s&amp;Pcor=0097df&amp;cdE=3655"
+                    marginheight="0" frameborder="0" marginwidth="0" border="0"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Plataforma de uso exclusivo do Marcos Alicate. Qualquer repercussão dos materiais fora da mesma torna-se
+            proibida.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"
+        integrity="sha512-Tn2m0TIpgVyTzzvmxLNuqbSJH3JP8jm+Cy3hvHrW7ndTDcJ1w5mBiksqDBb8GpE2ksktFvDB/ykZ0mDpsZj20w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>
